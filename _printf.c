@@ -42,7 +42,8 @@ int _printf(const char *format, ...)
 
             printf("%%", x);
         }
-}
+    }
 
+    va_end(args);
 
 }
